@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjl.Dao.UserMapper">
+    <select id="getUserByid" parameterType="int" resultType="User">
+        select  * from  mybatis.user where  id=#{id}
+</select>
+    <select id="getUserBylimit" parameterType="map" resultType="User">
+        select  * from  user limit #{startIndex},#{pagesize}
+
+    </select>
+    <select id="getUserByRowBounds" resultType="User">
+        select  * from  user
+    </select>
+</mapper>

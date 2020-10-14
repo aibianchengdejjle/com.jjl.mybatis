@@ -1,0 +1,24 @@
+[INFO][20-10-10][com.jjl.Dao.UserDaoTest]info:进度log4j的方法
+[DEBUG][20-10-10][com.jjl.Dao.UserDaoTest]debug方法
+[ERROR][20-10-10][com.jjl.Dao.UserDaoTest]进入error方法
+[INFO][20-10-10][com.jjl.Dao.UserDaoTest]info:进度log4j的方法
+[DEBUG][20-10-10][com.jjl.Dao.UserDaoTest]debug方法
+[ERROR][20-10-10][com.jjl.Dao.UserDaoTest]进入error方法
+[DEBUG][20-10-12][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-10-12][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-10-12][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-10-12][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-10-12][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-10-12][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-10-12][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-10-12][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 689654773.
+[DEBUG][20-10-12][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@291b4bf5]
+[DEBUG][20-10-12][com.jjl.Dao.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-10-12][com.jjl.Dao.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-10-12][com.jjl.Dao.UserMapper.getUserList]<==      Total: 4
+[DEBUG][20-10-12][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@291b4bf5]
+[DEBUG][20-10-12][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@291b4bf5]
+[DEBUG][20-10-12][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 689654773 to pool.
+[INFO][20-10-12][com.jjl.Dao.UserDaoTest]info:进度log4j的方法
+[DEBUG][20-10-12][com.jjl.Dao.UserDaoTest]debug方法
+[ERROR][20-10-12][com.jjl.Dao.UserDaoTest]进入error方法
